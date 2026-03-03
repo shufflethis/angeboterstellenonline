@@ -67,9 +67,9 @@ export default function Header() {
                 </nav>
 
                 <div className="header-cta">
-                    <a href="#pricing" className="btn btn-primary" style={{ padding: '0.6rem 1.5rem', fontSize: '0.875rem' }}>
+                    <Link to="/login" className="btn btn-primary" style={{ padding: '0.6rem 1.5rem', fontSize: '0.875rem' }}>
                         Kostenlos starten
-                    </a>
+                    </Link>
                     <button className="mobile-menu-btn" onClick={() => setMobileOpen(true)}>☰</button>
                 </div>
             </div>
